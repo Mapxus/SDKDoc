@@ -1,16 +1,16 @@
 * Digital Map
 
-	* [Web SDK](/MapxusMap/Web/index.md)
+	* [Web SDK](/map/web/1-getting-started.md)
 	
-	* [Android SDK](/MapxusMap/Android/index.md)
+	* [Android SDK](/map/android/index.md)
 	
-	* [iOS SDK](/MapxusMap/iOS/index.md)
+	* [iOS SDK](/map/ios/index.md)
 
 * Positioning 
 
-	* [Android SDK](/MapxusPositioning/Android/index.md)
+	* [Android SDK](/positioning/android/index.md)
 
 * Visual Map
 
-	* [Web SDK](/MapxusVisual/Web/index.md)
+	* [Web SDK](/visual/web/index.md)
 
