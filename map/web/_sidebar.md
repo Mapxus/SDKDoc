@@ -1,25 +1,25 @@
-* [Getting Started](/MapxusMap/Web/index.md)
+* [Getting Started](/map/web/1-getting-started.md)
 
-* [Map Controllers](/MapxusMap/Web/2.Map_Controllers.md)
+* [Map Controllers](/map/web/2-map-controllers.md)
 
-* [Map Event Listeners](/MapxusMap/Web/3.Map_Event_Listeners.md)
+* [Map Event Listeners](/map/web/3-map-event-listeners.md)
 
-* [Get Map Information](/MapxusMap/Web/4.Get_Map_Information.md)
+* [Get Map Information](/map/web/4-get-map-information.md)
 
-* [Building Search](/MapxusMap/Web/5.Building_Search.md)
+* [Building Search](/map/web/5-building-search.md)
 
-* [POI Search](/MapxusMap/Web/6.POI_Search.md)
+* [POI Search](/map/web/6-poi-search.md)
 
-* [Wayfinding](/MapxusMap/Web/7.Wayfinding.md)
+* [Wayfinding](/map/web/7-wayfinding.md)
 
-* [Markers and Annotations](/MapxusMap/Web/8.Markers_and_Annotations.md)
+* [Markers and Annotations](/map/web/8-markers_and_annotations.md)
 
-* [Camera](/MapxusMap/Web/9.Camera.md)
+* [Camera](/map/web/9-camera.md)
 
-* [Switch Building & Floors](/MapxusMap/Web/10.Switch_Building_and_Floors.md)
+* [Switch Building & Floors](/map/web/10-switch-building-and-floors.md)
 
-* [Map Styling](/MapxusMap/Web/11.Map_Styling.md)
+* [Map Styling](/map/web/11-map-styling.md)
 
-* [API References](/MapxusMap/Web/12.API_References.md)
+* [API References](/map/web/12-api-references.md)
 
-* [Change Log](/MapxusMap/Web/13.Change_Log.md)
+* [Change Log](/map/web/13-change-log.md)
