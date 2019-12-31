@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+<!--
+	<style>
+	.topnav {
+	  overflow: hidden;
+	  color: inherit;
+
+	}
+
+	.topnav a {
+	  float: left;
+	  color: inherit;
+	  text-align: center;
+	  padding: 30px 30px;
+	  font-size: 22px;
+	  text-decoration: none;
+	  font-weight: normal;
+	}
+
+	.topnav a:hover {
+	  background-color: #e6ffe6;
+	}
+
+	.topnav a.active {
+	  color: #42b983;
+	}
+	</style>
+-->
+</head>
+
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+	  search: 'auto',
+	  auto2top: true,
+	  homepage: 'home.md',
+      name: 'Mapxus | Docs',
+      repo: '',
+	  loadNavbar: true,
+	  loadSidebar: true,
+	  subMaxLevel: 3,
+	  relativePath: true
+/*
+	  plugins: [
+		function(hook, vm) {
+	
+		  hook.beforeEach(function(html) {
+	
+			var path = vm.route.path.split("/").slice(1,3);
+
+			var header = [
+			'<div class="topnav"><a onclick="(function(){ alert(this.className); })()" class="active" href="#/',
+			 path[0],'/', path[1],
+			'/Overview/index">Overview</a>',
+			'<a href="#/',
+			path[0],'/', path[1],
+			'/Examples/index">Examples</a>',
+			'<a href="#/',
+			path[0],'/', path[1],
+			'/API/index">API Reference</a></div>'
+			].join('');
+
+			console.log(vm.route.path.split("/").slice(1,3));
+
+		    return header + html;
+
+		  });
+		}
+	  ]
+*/
+    }
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+
+</body>
+</html>

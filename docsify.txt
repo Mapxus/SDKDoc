@@ -1,0 +1,115 @@
+sudo npm i docsify-cli -g
+
+mkdir docs
+
+docsify init ./docs
+
+docsify serve docs
+
+
+
+
+
+
+
+
+.
+└── docs
+    ├── README.md
+    ├── guide.md
+    └── zh-cn
+        ├── README.md
+        └── guide.md
+
+docs/README.md        => http://domain.com
+docs/guide.md         => http://domain.com/#/guide
+docs/zh-cn/README.md  => http://domain.com/#/zh-cn/
+docs/zh-cn/guide.md   => http://domain.com/#/zh-cn/guide
+
+
+
+homepage: 'home.md',
+
+loadSidebar: true
+
+loadNavbar: true,
+
+alias: {
+  '/.*/_sidebar.md': '/_sidebar.md'
+}
+subMaxLevel: 2
+
+logo: '/_media/icon.svg'
+
+name: 'docsify'
+
+
+nameLink: '/',
+
+nameLink: {
+  '/zh-cn/': '/zh-cn/',
+  '/': '/'
+}
+
+
+themeColor: '#3F51B5'
+
+
+// Load the files from another site
+basePath: 'https://docsify.js.org/',
+
+// Even can load files from other repo
+basePath:'https://raw.githubusercontent.com/ryanmcdermott/clean-code-javas
+
+
+<script src="//unpkg.com/docsify/lib/plugins/external-script.min.js"></script>
+
+
+
+
+
+# Getting Started {docsify-ignore-all}
+## Header {docsify-ignore}
+
+
+<!-- docs/_sidebar.md -->
+
+* [Home](/)
+* [Guide](guide.md)
+
+
+You can create a README.md file in a subdirectory to use it as the landing page for the route.
+
+
+
+
+<div class="topnav">
+
+<a class="active" href="#/MapxusMap/Android/Overview/index">Overview</a>
+
+
+<a class="active" href="#/MapxusMap/Android/Examples/index">Examples</a>
+
+<a class="active" href="#/MapxusMap/Android/API/index">API Reference</a>
+
+</div>
+
+
+
+
+onclick="function test(){ alert( "hi" ); } test();"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
