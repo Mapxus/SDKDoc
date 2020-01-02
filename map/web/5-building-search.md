@@ -31,14 +31,15 @@ Below is an example showing the Mapxus global search of building by name. Matchi
 - Floor List
 - Coordinates
 
+Import bootstrap stylesheet(Optional):
+
+```js
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
+```
+
 Clicking on the result will bring you to the building.
 
-<iframe src="https://bssww.mapxus.com/buildingsSearchByGlobal?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
-Full Coding:
-
-<iframe src="https://bssww.mapxus.com/buildingsSearchByGlobal?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
+<script async src="//jsfiddle.net/Mapxus/c2pz7q0b/embed/result,js,css,html/"></script>
 
 
 ## Search by Building ID
@@ -85,14 +86,16 @@ Below is an example showing the search of building by Mapxus building ID. Matchi
 - Floor List
 - Coordinates
 
+
+Import bootstrap stylesheet(Optional):
+
+```js
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
+```
+
 Clicking on the result will bring you to the building.
 
-<iframe src="https://bssww.mapxus.com/buildingsSearchByIds?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
-Full Coding:
-
-<iframe src="https://bssww.mapxus.com/buildingsSearchByIds?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
+<script async src="//jsfiddle.net/Mapxus/0ym9fp1t/embed/result,js,css,html/"></script>
 
 
 ## Search Building within a Certain Distance
@@ -133,14 +136,16 @@ Below is an example showing the search of building by name within 40km from **[1
 - Floor List
 - Coordinates
 
+Import bootstrap stylesheet(Optional):
+
+```js
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
+```
+
 Clicking on the result will bring you to the building.
 
-<iframe src="https://bssww.mapxus.com/buildingsSearchByDistance?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
 
-Full Coding:
-
-<iframe src="https://bssww.mapxus.com/buildingsSearchByDistance?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
+<script async src="//jsfiddle.net/Mapxus/zb9uq7a1/embed/result,js,css,html/"></script>
 
 
 ## Search Building within an Area
@@ -191,6 +196,15 @@ Below is an example showing the search of building by name within the area withi
 - Floor List
 - Coordinates
 
+
+Import bootstrap stylesheet(Optional):
+
+```js
+<script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
+```
+
+
 Clicking on the result will bring you to the building.
 
 E.g. search
@@ -198,8 +212,4 @@ E.g. search
 - Elements
 - 中港城
 
-<iframe src="https://bssww.mapxus.com/buildingsSearchByBbox?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
-Full Coding:
-
-<iframe src="https://bssww.mapxus.com/buildingsSearchByBbox?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
+<script async src="//jsfiddle.net/Mapxus/a2ns9fe4/embed/result,js,css,html/"></script>

@@ -59,4 +59,4 @@ Try with below sample by clicking the upper left button to get the callback of t
 Otherwise, you can use alert() instead.
 ```
 
-<script async src="//jsfiddle.net/Mapxus/nqy7zg1o/embed/"></script>
+<script async src="//jsfiddle.net/Mapxus/nqy7zg1o/embed/result,js,css,html/"></script>

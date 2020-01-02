@@ -42,14 +42,19 @@ Below is an example showing the search of building by POI ID. Matching results a
 - Floor
 - Coordinates
 
+
+Import bootstrap stylesheet(Optional):
+
+```js
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
+```
+
+
+
 Clicking on the result will bring you to the POI directly.
 
-<iframe src="https://bssww.mapxus.com/poisSearchByIds?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
 
-Full Coding:
-
-<iframe src="https://bssww.mapxus.com/poisSearchByIds?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
+<script async src="//jsfiddle.net/Mapxus/dv12nLp9/embed/result,js,css,html/"></script>
 
 ## Search Orientation
 
@@ -100,13 +105,17 @@ Below is an example showing the search of building by POI ID. Matching results a
 - Angle
 - Coordinates
 
+Import bootstrap stylesheet(Optional):
+
+```js
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
+```
+
+
 Clicking on the result will bring you to the POI directly.
 
-<iframe src="https://bssww.mapxus.com/poisSearchOrientation?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
+<script async src="//jsfiddle.net/Mapxus/6gm7j2L8/embed/result,js,css,html/"></script>
 
-Full Coding:
-
-<iframe src="https://bssww.mapxus.com/poisSearchOrientation?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
 
 ## Search POI Category
 
@@ -141,16 +150,18 @@ service
   });
 ```
 
+Import bootstrap stylesheet(Optional):
+
+```js
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
+```
+
+
 Below is an example showing the search of category by building. Matching results are displayed in the result list, with key information of the POI including:
 
 - Categories
 
-<iframe src="https://bssww.mapxus.com/poisSearchCategory?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
-Full Coding:
-
-<iframe src="https://bssww.mapxus.com/poisSearchCategory?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
+<script async src="//jsfiddle.net/Mapxus/aLhzfys0/embed/result,js,css,html/"></script>
 
 ## Search POI within a Certain Distance
 
@@ -182,6 +193,12 @@ service
   });
 ```
 
+Import bootstrap stylesheet(Optional):
+
+```js
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
+```
+
 Below is an example showing the search of POI by name within 2km from **[114.16158, 22.30498]** (i.e. Elements). Matching results are displayed in the result list, with key information of the building including:
 
 - Name
@@ -192,11 +209,7 @@ Below is an example showing the search of POI by name within 2km from **[114.161
 
 Clicking on the result will bring you to the POI.
 
-<iframe src="https://bssww.mapxus.com/poisSearchByDistance?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
-Full Coding:
-
-<iframe src="https://bssww.mapxus.com/poisSearchByDistance?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
+<script async src="//jsfiddle.net/Mapxus/fd6a7ob4/embed/result,js,css,html/"></script>
 
 
 
@@ -236,6 +249,14 @@ service
   });
 ```
 
+
+Import bootstrap stylesheet(Optional):
+
+```js
+<script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
+```
+
 Below is an example showing the search of POI by name within the area within coordinates **[114.15816, 22.30124, 114.16561, 22.30908]** (area around Elements, Hong Kong). Matching results are displayed in the result list, with key information of the building including:
 
 - Name
@@ -246,12 +267,7 @@ Below is an example showing the search of POI by name within the area within coo
 
 Clicking on the result will bring you to the POI.
 
-<iframe src="https://bssww.mapxus.com/poisSearchByBbox?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
-Full Coding:
-
-<iframe src="https://bssww.mapxus.com/poisSearchByBbox?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
+<script async src="//jsfiddle.net/Mapxus/0j5139oq/embed/result,js,css,html/"></script>
 
 
 ## Search POI within a Building
@@ -289,6 +305,13 @@ service
   });
 ```
 
+
+Import bootstrap stylesheet(Optional):
+
+```js
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
+```
+
 Below is an example showing the search of POI in Elements (shopping mall in Hong Kong). Matching results are displayed in the result list, with key information of the POI including:
 
 - Name
@@ -299,8 +322,4 @@ Below is an example showing the search of POI in Elements (shopping mall in Hong
 
 Clicking on the result will bring you to the POI directly.
 
-<iframe src="https://bssww.mapxus.com/poisSearchByBuildingId?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
-Full Coding:
-
-<iframe src="https://bssww.mapxus.com/poisSearchByBuildingId?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
+<script async src="//jsfiddle.net/Mapxus/mz6hpx43/embed/result,js,css,html/"></script>

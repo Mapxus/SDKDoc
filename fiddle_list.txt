@@ -3,6 +3,7 @@ map/web/1-getting-started/by-building-id
 map/web/1-getting-started/by-poi-id
 
 
+
 map/web/2-map-controllers/floor-controller
 
 map/web/2-map-controllers/building-selector
@@ -10,6 +11,7 @@ map/web/2-map-controllers/building-selector
 map/web/2-map-controllers/map-scale-controller
 
 map/web/2-map-controllers/map-zoom-and-compass-controller
+
 
 
 map/web/3-map-event-listeners/load-map-complete
@@ -21,10 +23,46 @@ map/web/3-map-event-listeners/click-map
 map/web/3-map-event-listeners/switch-floor
 
 
+
 map/web/4-get-map-information/get-current-floor-number
 
 map/web/4-get-map-information/get-current-building-floor-list
 
 map/web/4-get-map-information/get-current-building-basic-info
+
+
+
+
+
+map/web/5-building-search/global-search
+
+map/web/5-building-search/search-by-building-id
+
+map/web/5-building-search/search-building-within-a-certain-distance
+
+map/web/5-building-search/search-building-within-an-area
+
+
+
+
+
+
+map/web/6-poi-search/search-by-poi-id
+
+map/web/6-poi-search/search-orientation
+
+
+map/web/6-poi-search/search-poi-category
+
+
+map/web/6-poi-search/search-poi-within-a-certain-distance
+
+
+map/web/6-poi-search/search-poi-within-an-area
+
+
+map/web/6-poi-search/search-poi-within-a-building
+
+
 
 
