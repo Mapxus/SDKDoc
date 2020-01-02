@@ -19,3 +19,12 @@ map/web/3-map-event-listeners/click-poi
 map/web/3-map-event-listeners/click-map
 
 map/web/3-map-event-listeners/switch-floor
+
+
+map/web/4-get-map-information/get-current-floor-number
+
+map/web/4-get-map-information/get-current-building-floor-list
+
+map/web/4-get-map-information/get-current-building-basic-info
+
+
