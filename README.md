@@ -34,3 +34,8 @@
 	* The fiddle name:
 		
 		* map/web/1-getting-started/display-the-mapxus-map
+
+
+## Fiddles Embedding
+
+Change the display order and display the result first.

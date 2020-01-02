@@ -12,7 +12,7 @@
 
 * [Wayfinding](/map/web/7-wayfinding.md)
 
-* [Markers and Annotations](/map/web/8-markers_and_annotations.md)
+* [Markers and Annotations](/map/web/8-markers-and-annotations.md)
 
 * [Camera](/map/web/9-camera.md)
 

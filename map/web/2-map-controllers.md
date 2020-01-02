@@ -39,11 +39,7 @@ map.enableFloorControl('top-left');
 
 Below an example disabling the floor controller:
 
-<iframe src="https://bssww.mapxus.com/floorsControl?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
-Full Coding:
-
-<iframe src="https://bssww.mapxus.com/floorsControl?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
+<script async src="//jsfiddle.net/Mapxus/gc2Lywq9/embed/result,js,css,html/"></script>
 
 
 ## Building Selector
@@ -83,11 +79,7 @@ e.g.
 map.enableBuildingSelector('top-left');
 ```
 
-<iframe src="https://bssww.mapxus.com/buildingFilterControl?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
-Full Coding:
-
-<iframe src="https://bssww.mapxus.com/buildingFilterControl?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
+<script async src="//jsfiddle.net/Mapxus/q2dshkL5/embed/result,js,css,html/"></script>
 
 
 ## Map Scale Controller
@@ -114,12 +106,7 @@ e.g.
 mapbox.addControl(new mapboxgl.ScaleControl(), 'bottom-right');
 ```
 
-<iframe src="https://bssww.mapxus.com/scaleControl?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
-Full Coding:
-
-<iframe src="https://bssww.mapxus.com/scaleControl?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
+<script async src="//jsfiddle.net/Mapxus/pLkdesr3/embed/result,js,css,html/"></script>
 
 ## Map Zoom and Compass Controller
 
@@ -145,8 +132,4 @@ e.g.
 mapbox.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
 ```
 
-<iframe src="https://bssww.mapxus.com/navigationControl?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
-Full Coding:
-
-<iframe src="https://bssww.mapxus.com/navigationControl?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
+<script async src="//jsfiddle.net/Mapxus/0a7z3vgk/embed/result,js,css,html/"></script>

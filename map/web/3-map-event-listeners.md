@@ -11,13 +11,17 @@ map.renderComplete(function() {
 });
 ```
 
-Below is an example displaying a pop-up message when map preparation is completed.
+Import UI modal for Pop-ups(Optional).
 
-<iframe src="https://bssww.mapxus.com/loadMapListener?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
+```js
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
-Full Coding:
+Otherwise, you can use alert() instead.
+```
 
-<iframe src="https://bssww.mapxus.com/loadMapListener?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
+<script async src="//jsfiddle.net/Mapxus/9hLfesw8/1/embed/result,js,css,html"></script>
 
 
 ## Click POI
@@ -46,11 +50,7 @@ map.onIndoorPoiListener(function(evt) {
 
 Try to click on the POI of below Mapxus map example to get the on-click POI pop-up message.
 
-<iframe src="https://bssww.mapxus.com/poiClickEvent?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
-Full Coding:
-
-<iframe src="https://bssww.mapxus.com/poiClickEvent?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
+<script async src="//jsfiddle.net/Mapxus/x2kLd1sv/embed/result,js,css,html/"></script>
 
 
 ## Click Map
@@ -79,13 +79,19 @@ map.onMapClickListener(function(event) {
 });
 ```
 
+Import UI modal for Pop-ups(Optional).
+
+```js
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+Otherwise, you can use alert() instead.
+```
+
 Try to click anywhere on below Mapxus map example to get the on-click map pop-up message.
 
-<iframe src="https://bssww.mapxus.com/mapClickEvent?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
-Full Coding:
-<iframe src="https://bssww.mapxus.com/mapClickEvent?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
+<script async src="//jsfiddle.net/Mapxus/acbuok2f/embed/result,js,css,html/"></script>
 
 
 ## Switch Floor
@@ -109,10 +115,16 @@ map.onFloorChangeListener(function(evt) {
 });
 ```
 
+Import UI modal for Pop-ups(Optional).
+
+```js
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+Otherwise, you can use alert() instead.
+```
+
 Try to go to different floors with the floor controller on below Mapxus map example to get the floor change pop-up message.
 
-<iframe src="https://bssww.mapxus.com/floorChangeEvent?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
-Full Coding:
-
-<iframe src="https://bssww.mapxus.com/floorChangeEvent?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
+<script async src="//jsfiddle.net/Mapxus/y6Ljmfku/embed/result,js,css,html/"></script>
