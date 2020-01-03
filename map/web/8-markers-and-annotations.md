@@ -2,27 +2,27 @@
 
 ### Create Marker
 
-To create a marker
+* Create a marker
 
 ```js
 // create marker
 var marker = new MapxusMap.Marker(map);
 ```
 
-To bind the marker(s) with floor and building:
+* Bind the marker(s) with floor and building:
 
 ```js
 marker.create(coordinates, map.currentFloor, map.building.id);
 ```
 
-To add one marker on the map:
+* Add one marker on the map:
 
 ```js
 // add a marker
 var coordinates = [114.162477, 22.3046355];
 ```
 
-To add multiple markes on the map:
+* Add multiple markes on the map:
 
 ```js
 // add multi marker
@@ -34,7 +34,7 @@ var coordinates = [
 ];
 ```
 
-To add a marker listener event:
+* Add a marker listener event:
 
 ```js
 // marker on click event
@@ -112,9 +112,6 @@ function addLayer() {
 }
 ```
 
-Below is an example drawing a simple blue point on the map at Elements shopping mall in Hong Kong:
-
-
 ```js
 <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -122,6 +119,8 @@ Below is an example drawing a simple blue point on the map at Elements shopping 
 
 Otherwise, you can use alert() instead.
 ```
+
+Below is an example drawing a simple blue point on the map at Elements shopping mall in Hong Kong:
 
 <script async src="//jsfiddle.net/Mapxus/2ed1toqs/embed/result,js,css,html/"></script>
 
@@ -180,12 +179,12 @@ function addLayer() {
 }
 ```
 
+Import dependencies:
+
 ```js
 <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
-Otherwise, you can use alert() instead.
 ```
 
 Below is an example drawing a simple blue line with multiple coordinates on the map at Elements shopping mall in Hong Kong:
@@ -246,15 +245,14 @@ function addLayer() {
 }
 ```
 
+Import dependencies:
+
 ```js
 <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
-Otherwise, you can use alert() instead.
 ```
 
 Below is an example drawing a simple blue irregular-shaped polygon on the map at Elements shopping mall in Hong Kong:
-
 
 <script async src="//jsfiddle.net/Mapxus/7sfujo3c/embed/result,js,css,html/"></script>

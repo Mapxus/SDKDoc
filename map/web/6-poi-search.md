@@ -50,11 +50,11 @@ Import bootstrap stylesheet(Optional):
 ```
 
 
-
 Clicking on the result will bring you to the POI directly.
 
-
 <script async src="//jsfiddle.net/Mapxus/dv12nLp9/embed/result,js,css,html/"></script>
+
+
 
 ## Search Orientation
 
@@ -98,19 +98,18 @@ service
   });
 ```
 
-Below is an example showing the search of building by POI ID. Matching results are displayed in the result list, with key information of the POI including:
-
-- Name
-- Mapxus POI ID
-- Angle
-- Coordinates
-
 Import bootstrap stylesheet(Optional):
 
 ```js
 <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
 ```
 
+Below is an example showing the search of building by POI ID. Matching results are displayed in the result list, with key information of the POI including:
+
+- Name
+- Mapxus POI ID
+- Angle
+- Coordinates
 
 Clicking on the result will bring you to the POI directly.
 
@@ -162,6 +161,8 @@ Below is an example showing the search of category by building. Matching results
 - Categories
 
 <script async src="//jsfiddle.net/Mapxus/aLhzfys0/embed/result,js,css,html/"></script>
+
+
 
 ## Search POI within a Certain Distance
 
@@ -250,7 +251,7 @@ service
 ```
 
 
-Import bootstrap stylesheet(Optional):
+Import depencies(Optional):
 
 ```js
 <script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>

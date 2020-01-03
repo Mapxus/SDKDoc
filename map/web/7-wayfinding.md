@@ -30,6 +30,7 @@ Import dependencies:
 <script src='https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js'></script>
 <script src='https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js'></script>
 ```
+
 Below an example showing the wayfinding function:
 
 - You car type keywords of any POI in the searching bar and select your starting point (A)

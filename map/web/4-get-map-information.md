@@ -8,6 +8,8 @@ To get the current floor number on Mapxus map:
 map.currentFloor;
 ```
 
+Import UI modal for Pop-ups(Optional):
+
 ```js
 <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -26,6 +28,8 @@ To get the complete floor list of the current active building on Mapxus map:
 ```js
 map.floors;
 ```
+
+Import UI modal for Pop-ups(Optional):
 
 ```js
 <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"></script>
@@ -48,8 +52,8 @@ To get the building information of the current active building on Mapxus map:
 map.building;
 ```
 
-Try with below sample by clicking the upper left button to get the callback of the basic building information of the current active building, like the name, address, building ID, etc.
 
+Import UI modal for Pop-ups(Optional):
 
 ```js
 <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"></script>
@@ -58,5 +62,8 @@ Try with below sample by clicking the upper left button to get the callback of t
 
 Otherwise, you can use alert() instead.
 ```
+
+
+Try with below sample by clicking the upper left button to get the callback of the basic building information of the current active building, like the name, address, building ID, etc.
 
 <script async src="//jsfiddle.net/Mapxus/nqy7zg1o/embed/result,js,css,html/"></script>

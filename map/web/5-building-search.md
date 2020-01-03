@@ -144,7 +144,6 @@ Import bootstrap stylesheet(Optional):
 
 Clicking on the result will bring you to the building.
 
-
 <script async src="//jsfiddle.net/Mapxus/zb9uq7a1/embed/result,js,css,html/"></script>
 
 
@@ -197,7 +196,7 @@ Below is an example showing the search of building by name within the area withi
 - Coordinates
 
 
-Import bootstrap stylesheet(Optional):
+Import dependencies(Optional):
 
 ```js
 <script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>

@@ -11,7 +11,7 @@ map.renderComplete(function() {
 });
 ```
 
-Import UI modal for Pop-ups(Optional).
+Import UI modal for Pop-ups(Optional):
 
 ```js
 <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"></script>
@@ -79,7 +79,7 @@ map.onMapClickListener(function(event) {
 });
 ```
 
-Import UI modal for Pop-ups(Optional).
+Import UI modal for Pop-ups(Optional):
 
 ```js
 <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"></script>
@@ -89,7 +89,7 @@ Import UI modal for Pop-ups(Optional).
 Otherwise, you can use alert() instead.
 ```
 
-Try to click anywhere on below Mapxus map example to get the on-click map pop-up message.
+Try to click anywhere on below Mapxus map example to get the on-click map pop-up message
 
 <script async src="//jsfiddle.net/Mapxus/acbuok2f/embed/result,js,css,html/"></script>
 
@@ -115,7 +115,7 @@ map.onFloorChangeListener(function(evt) {
 });
 ```
 
-Import UI modal for Pop-ups(Optional).
+Import UI modal for Pop-ups(Optional):
 
 ```js
 <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"></script>

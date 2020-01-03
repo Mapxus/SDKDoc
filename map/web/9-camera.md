@@ -23,13 +23,12 @@ To disable the map tilt and rotation action:
 mapbox.dragRotate.disable();
 ```
 
+Import dependencies:
 
 ```js
 <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
-Otherwise, you can use alert() instead.
 ```
 
 Below is an example you may enable/disable the map tilt and rotation action.
@@ -47,13 +46,12 @@ To lock the map / disable the moving of the map by dragging:
 mapbox.dragPan.disable();
 ```
 
+Import dependencies:
 
 ```js
 <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
-Otherwise, you can use alert() instead.
 ```
 
 
@@ -72,13 +70,12 @@ To disable the zooming of the map:
 mapbox.scrollZoom.disable();
 ```
 
+Import dependencies:
 
 ```js
 <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
-Otherwise, you can use alert() instead.
 ```
 
 
@@ -104,7 +101,6 @@ Remark:
 - the default zoom level of initiating Mapxus Map is level 17.
 
 Below an example showing a minimum zoom level of 16 and maximum zoom level of 18.
-
 
 <script async src="//jsfiddle.net/Mapxus/k6cj8pyq/embed/result,js,css,html/"></script>
 
