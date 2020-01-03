@@ -36,7 +36,7 @@ Please [contact us](http://www.mapxus.com/contact/) to apply for your API Key.
 
 * The building ID can be obtained by [search building](https://service.mapxus.com/dpw/digitalMap?version=3.2.3&hasSubFolder=true&text=Global%20Search)
 
-<script async src="//jsfiddle.net/Mapxus/1fydz4jk/embed/result,js,css,html/"></script>
+<script async src="//jsfiddle.net/Mapxus/1fydz4jk/embed/result,js,css,html/" style="width:100%; height:50vw"></script>
 
 ### By POI ID
 

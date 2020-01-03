@@ -21,7 +21,7 @@ Import UI modal for Pop-ups(Optional).
 Otherwise, you can use alert() instead.
 ```
 
-<script async src="//jsfiddle.net/Mapxus/9hLfesw8/1/embed/result,js,css,html"></script>
+<script async src="//jsfiddle.net/Mapxus/9hLfesw8/embed/result,js,css,html"></script>
 
 
 ## Click POI

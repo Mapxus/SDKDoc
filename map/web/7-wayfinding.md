@@ -24,14 +24,14 @@ routeService
   });
 ```
 
+Import dependencies:
+
+```js
+<script src='https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js'></script>
+<script src='https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js'></script>
+```
 Below an example showing the wayfinding function:
 
 - You car type keywords of any POI in the searching bar and select your starting point (A)
 - OR you can click on the people icon on the right to the searching bar and click on the map to select the starting point directly. Ending point (B) as well
 - Click the “Planning” button to search and display the route
-
-<iframe src="https://bssww.mapxus.com/routeSearch?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
-Full Coding:
-
-<iframe src="https://bssww.mapxus.com/routeSearch?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>

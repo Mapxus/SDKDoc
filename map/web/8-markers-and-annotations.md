@@ -49,12 +49,7 @@ Tips:
 
 Example of adding markers:
 
-<iframe src="https://bssww.mapxus.com/defineMarkerClickEvent?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
-Full Coding:
-
-<iframe src="https://bssww.mapxus.com/defineMarkerClickEvent?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
+<script async src="//jsfiddle.net/Mapxus/sdhwtemr/embed/result,js,css,html/"></script>
 
 
 ## Create Custom Marker
@@ -69,12 +64,6 @@ marker
 ```
 
 Below is an example of applying a custom marker
-
-<iframe src="https://bssww.mapxus.com/customMarkerStyle?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
-Full Coding:
-
-<iframe src="https://bssww.mapxus.com/customMarkerStyle?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
 
 
 ## Draw a Point on Map

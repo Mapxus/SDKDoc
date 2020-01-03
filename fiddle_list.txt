@@ -66,3 +66,36 @@ map/web/6-poi-search/search-poi-within-a-building
 
 
 
+map/web/7-wayfinding/point-to-point-pathway
+
+
+
+
+map/web/8-markers-and-annotations/create-marker
+
+map/web/8-markers-and-annotations/create-custom-marker
+
+map/web/8-markers-and-annotations/draw-a-point-on-map
+
+map/web/8-markers-and-annotations/draw-a-line-on-map
+
+map/web/8-markers-and-annotations/draw-a-polygon-on-map
+
+
+
+
+
+map/web/9-camera/tilt-and-rotate-map
+
+map/web/9-camera/move-map
+
+map/web/9-camera/zoom-map
+
+map/web/9-camera/restrict-map-zoom-level
+
+map/web/9-camera/restrict-map-planning
+
+
+
+
+
