@@ -49,7 +49,7 @@ Tips:
 
 Example of adding markers:
 
-<script async src="//jsfiddle.net/Mapxus/sdhwtemr/embed/result,js,css,html/"></script>
+<script async src="//jsfiddle.net/Mapxus/us4bq81h/embed/result,js,css,html/"></script>
 
 
 ## Create Custom Marker
@@ -64,6 +64,8 @@ marker
 ```
 
 Below is an example of applying a custom marker
+
+<script async src="//jsfiddle.net/Mapxus/9vcmzsL4/embed/result,js,css,html/"></script>
 
 
 ## Draw a Point on Map
@@ -112,11 +114,16 @@ function addLayer() {
 
 Below is an example drawing a simple blue point on the map at Elements shopping mall in Hong Kong:
 
-<iframe src="https://bssww.mapxus.com/drawPoint?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
 
-Full Coding:
+```js
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
-<iframe src="https://bssww.mapxus.com/drawPoint?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
+Otherwise, you can use alert() instead.
+```
+
+<script async src="//jsfiddle.net/Mapxus/2ed1toqs/embed/result,js,css,html/"></script>
 
 
 ## Draw a Line on Map
@@ -173,13 +180,17 @@ function addLayer() {
 }
 ```
 
+```js
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+Otherwise, you can use alert() instead.
+```
+
 Below is an example drawing a simple blue line with multiple coordinates on the map at Elements shopping mall in Hong Kong:
 
-<iframe src="https://bssww.mapxus.com/drawLine?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
-Full Coding:
-
-<iframe src="https://bssww.mapxus.com/drawLine?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
+<script async src="//jsfiddle.net/Mapxus/a2ntL7ju/embed/result,js,css,html/"></script>
 
 
 ## Draw a Polygon on Map
@@ -235,10 +246,15 @@ function addLayer() {
 }
 ```
 
+```js
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+Otherwise, you can use alert() instead.
+```
+
 Below is an example drawing a simple blue irregular-shaped polygon on the map at Elements shopping mall in Hong Kong:
 
-<iframe src="https://bssww.mapxus.com/drawArea?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
 
-Full Coding:
-
-<iframe src="https://bssww.mapxus.com/drawArea?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
+<script async src="//jsfiddle.net/Mapxus/7sfujo3c/embed/result,js,css,html/"></script>

@@ -33,8 +33,4 @@ map.switchTheme('mappyBee');
 
 Please check below the Mapxus map example applying ‘mappyBee’ theme instead of the default theme.
 
-<iframe src="https://bssww.mapxus.com/mappyBeeStyle?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
-Full Coding:
-
-<iframe src="https://bssww.mapxus.com/mappyBeeStyle?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
+<script async src="//jsfiddle.net/Mapxus/oryL47e0/embed/result,js,css,html/"></script>

@@ -33,5 +33,7 @@ Import dependencies:
 Below an example showing the wayfinding function:
 
 - You car type keywords of any POI in the searching bar and select your starting point (A)
-- OR you can click on the people icon on the right to the searching bar and click on the map to select the starting point directly. Ending point (B) as well
-- Click the “Planning” button to search and display the route
+- OR you can click on the people icon on the right to the searching bar and click on the map to select the starting point directly. Ending point (B) as well.
+- Click the “Planning” button to search and display the route.
+
+<script async src="//jsfiddle.net/Mapxus/q0yn84ft/embed/result,js,css,html/"></script>

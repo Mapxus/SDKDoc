@@ -23,13 +23,18 @@ To disable the map tilt and rotation action:
 mapbox.dragRotate.disable();
 ```
 
+
+```js
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+Otherwise, you can use alert() instead.
+```
+
 Below is an example you may enable/disable the map tilt and rotation action.
 
-<iframe src="https://bssww.mapxus.com/dragRotateHandler?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
-Full Coding:
-
-<iframe src="https://bssww.mapxus.com/dragRotateHandler?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
+<script async src="//jsfiddle.net/Mapxus/k38pjyru/embed/result,js,css,html/"></script>
 
 
 
@@ -42,13 +47,20 @@ To lock the map / disable the moving of the map by dragging:
 mapbox.dragPan.disable();
 ```
 
+
+```js
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+Otherwise, you can use alert() instead.
+```
+
+
 Below is an example you may enable/disable the map move by dragging action.
 
-<iframe src="https://bssww.mapxus.com/dragPanHandler?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
+<script async src="//jsfiddle.net/Mapxus/863hdqw2/embed/result,js,css,html/"></script>
 
-Full Coding:
-
-<iframe src="https://bssww.mapxus.com/dragPanHandler?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
 
 
 ## Zoom Map
@@ -60,13 +72,20 @@ To disable the zooming of the map:
 mapbox.scrollZoom.disable();
 ```
 
+
+```js
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+Otherwise, you can use alert() instead.
+```
+
+
 Below is an example that you may disable/enable the zooming.
 
-<iframe src="https://bssww.mapxus.com/scrollZoomHandler?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
+<script async src="//jsfiddle.net/Mapxus/vjamph0k/embed/result,js,css,html/"></script>
 
-Full Coding:
-
-<iframe src="https://bssww.mapxus.com/scrollZoomHandler?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
 
 
 ## Restrict Map Zoom Level
@@ -86,12 +105,8 @@ Remark:
 
 Below an example showing a minimum zoom level of 16 and maximum zoom level of 18.
 
-<iframe src="https://bssww.mapxus.com/restrictMapZoom?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
 
-Full Coding:
-
-<iframe src="https://bssww.mapxus.com/restrictMapZoom?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
+<script async src="//jsfiddle.net/Mapxus/k6cj8pyq/embed/result,js,css,html/"></script>
 
 
 ## Restrict Map Planning
@@ -105,8 +120,4 @@ mapbox.setMaxBounds([[114.15867, 22.30276], [114.16503, 22.30729]]);
 
 Below is an example showing the restriction of map planning.
 
-<iframe src="https://bssww.mapxus.com/restrictMapPanning?header=false&amp;menu=false&amp;code=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
-
-Full Coding:
-
-<iframe src="https://bssww.mapxus.com/restrictMapPanning?header=false&amp;menu=false&amp;map=false" width="100%" height="500px" frameborder="0" scrolling="no"> </iframe>
+<script async src="//jsfiddle.net/Mapxus/5voerady/embed/result,js,css,html/"></script>

@@ -96,6 +96,7 @@ map/web/9-camera/restrict-map-zoom-level
 map/web/9-camera/restrict-map-planning
 
 
+map/web/10-switch-building-and-floors
 
-
+map/web/11-map-styling/change-map-style
 
