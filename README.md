@@ -29,7 +29,7 @@
 
 	* The title's URL:
 
-		* https://mapxus.github.io/docs/#/map/web/1-getting-started?id=display-the-mapxus-map
+		* https://www.example.com/docs/#/map/web/1-getting-started?id=display-the-mapxus-map
 	
 	* The fiddle name:
 		
