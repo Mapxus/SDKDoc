@@ -112,12 +112,12 @@ function addLayer() {
 }
 ```
 
+Import dependencies:
+
 ```js
 <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
-Otherwise, you can use alert() instead.
 ```
 
 Below is an example drawing a simple blue point on the map at Elements shopping mall in Hong Kong:

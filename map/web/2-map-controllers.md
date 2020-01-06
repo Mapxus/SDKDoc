@@ -2,7 +2,9 @@
 
 ## Floor Controller
 
-The floor controller and building selector are displayed by default at the top-right of the map. To disable the floor controller at map initialization:
+The floor controlleris displayed at the top-right of the map by default.
+
+* To disable the floor controller at map initialization:
 
 ```js
 // init mapxus map
@@ -15,17 +17,15 @@ var map = new MapxusMap.Map({
 });
 ```
 
-Upon map render complete, to disable/enable the floor controller you may use:
+* Upon map render complete, to disable/enable the floor controller you may use:
 
 ```js
 map.disableFloorControl();
-```
 
-```js
 map.enableFloorControl();
 ```
 
-You can choose where to put the floor controller, by default it is located at the top-right of the map.
+* You can choose where to put the floor controller.
 
 ```
 options('top-left', 'top-right', 'bottom-left', 'bottom-right')
@@ -37,14 +37,15 @@ e.g.
 map.enableFloorControl('top-left');
 ```
 
-Below an example disabling the floor controller:
-
 <script async src="//jsfiddle.net/Mapxus/gc2Lywq9/embed/result,js,css,html/"></script>
+
 
 
 ## Building Selector
 
-The floor controller and building selector are displayed by default at the top-right of the map. To disable the building selector at map initialization:
+The building selector is displayed at the top-right of the map by default.
+
+* To disable the building selector at map initialization:
 
 ```js
 // init mapxus map
@@ -57,17 +58,15 @@ var map = new MapxusMap.Map({
 });
 ```
 
-Upon map render complete, to disable/enable the building selector you may use:
+* Upon map render complete, to disable/enable the building selector you may use:
 
 ```js
 map.disableBuildingSelector();
-```
 
-```js
 map.enableBuildingSelector();
 ```
 
-You can choose where to put the building selector, by default it is located at the top-right of the map.
+* You can choose where to put the building selector:
 
 ```
 options('top-left', 'top-right', 'bottom-left', 'bottom-right')
@@ -82,9 +81,12 @@ map.enableBuildingSelector('top-left');
 <script async src="//jsfiddle.net/Mapxus/q2dshkL5/embed/result,js,css,html/"></script>
 
 
+
 ## Map Scale Controller
 
-The map scale shows the scale at the current map zoom level. The map scale is not displayed by default, to add:
+The map scale shows the scale at the current map zoom level. The map scale is not displayed by default.
+
+* To display the map scale controller:
 
 ```js
 // mapboxgl listener
@@ -94,7 +96,7 @@ mapbox.on('load', function() {
 });
 ```
 
-You can choose where to put the map scale on the map:
+* You can choose where to put the map scale on the map:
 
 ```js
 options（'top-left', 'top-right', 'bottom-left', 'bottom-right'）
@@ -108,9 +110,12 @@ mapbox.addControl(new mapboxgl.ScaleControl(), 'bottom-right');
 
 <script async src="//jsfiddle.net/Mapxus/pLkdesr3/embed/result,js,css,html/"></script>
 
+
 ## Map Zoom and Compass Controller
 
-The map scale shows the scale at the current map zoom level. The map scale is not displayed by default, to add:
+The map scale shows the scale at the current map zoom level. The map scale is not displayed by default.
+
+* To display the zoom and compass controller:
 
 ```js
 // mapboxgl listener
@@ -120,7 +125,7 @@ mapbox.on('load', function() {
 });
 ```
 
-By default when you add the map zoom and compass controller it is put at the top-right of the map. You can also choose where to put the map scale on the map:
+* The zoom and compass controller is displayed at the top-right of the map. You can also choose where to put the map scale controller on the map:
 
 ```js
 options('top-left', 'top-right', 'bottom-left', 'bottom-right');

@@ -1,7 +1,5 @@
 # POI SEARCH
 
-## Search by POI ID
-
 The POI search service is used to search for a point of interest (POI, e.g. shop, restaurant…) in Mapxus Map.
 
 ```js
@@ -15,6 +13,8 @@ Mapxus provides four kinds of building search service:
 - search by distance
 - search by area
 - search within building
+
+## Search by POI ID
 
 The search by ID function let you search and locate the exact POI with the unique Mapxus POI ID.
 
@@ -34,7 +34,7 @@ service
   });
 ```
 
-Below is an example showing the search of building by POI ID. Matching results are displayed in the result list, with key information of the POI including:
+Returned Values:
 
 - Name
 - Mapxus POI ID
@@ -49,8 +49,7 @@ Import bootstrap stylesheet(Optional):
 <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
 ```
 
-
-Clicking on the result will bring you to the POI directly.
+Click the search button to show the result:
 
 <script async src="//jsfiddle.net/Mapxus/dv12nLp9/embed/result,js,css,html/"></script>
 
@@ -83,12 +82,12 @@ Mapxus provides two kinds of orientation search service:
  */
 service
   .searchOrientation(
-    10,
-    'vivocity_foshan_d3fmv9',
-    [113.1820529763915, 23.035507036556652],
-    50,
-    'Point',
-    1
+    10,  //angle
+    'vivocity_foshan_d3fmv9',  //buildingId
+    [113.1820529763915, 23.035507036556652], //center
+    50, //radius, meter
+    'Point',  //search type
+    1  //floor
   )
   .then(function(res) {
     console.log(res);
@@ -104,14 +103,15 @@ Import bootstrap stylesheet(Optional):
 <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
 ```
 
-Below is an example showing the search of building by POI ID. Matching results are displayed in the result list, with key information of the POI including:
+
+Returned Values:
 
 - Name
 - Mapxus POI ID
 - Angle
 - Coordinates
 
-Clicking on the result will bring you to the POI directly.
+Click Search button to show the result:
 
 <script async src="//jsfiddle.net/Mapxus/6gm7j2L8/embed/result,js,css,html/"></script>
 
@@ -156,9 +156,11 @@ Import bootstrap stylesheet(Optional):
 ```
 
 
-Below is an example showing the search of category by building. Matching results are displayed in the result list, with key information of the POI including:
+Returned Values:
 
 - Categories
+
+Click Search button to show the result:
 
 <script async src="//jsfiddle.net/Mapxus/aLhzfys0/embed/result,js,css,html/"></script>
 
@@ -166,24 +168,12 @@ Below is an example showing the search of category by building. Matching results
 
 ## Search POI within a Certain Distance
 
-The POI search service is used to search for a point of interest (POI, e.g. shop, restaurant…) in Mapxus Map.
+The search by distance function enables you to search and locate a POI near a defined point.
+
+The searching area is a circle with the defined point as center and a self-defined radius.
 
 ```js
-// buildings search service
-service = new MapxusMap.BuildingsService();
-```
-
-Mapxus provides four kinds of building search service:
-
-- global search
-- search by ID
-- search by distance
-- search by area
-
-The search by distance function enables you to search and locate a POI near a defined point. The searching area is a circle with the defined point as center and a self-defined radius.
-
-```js
-// search by distance parameters include keywords, center of search, distance in km
+// search by distance parameters include keywords, center of search, radius in km
 service
   .searchByDistance('starbucks', [114.16158, 22.30498], 2)
   .then(function(res) {
@@ -200,7 +190,7 @@ Import bootstrap stylesheet(Optional):
 <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
 ```
 
-Below is an example showing the search of POI by name within 2km from **[114.16158, 22.30498]** (i.e. Elements). Matching results are displayed in the result list, with key information of the building including:
+Returned Values:
 
 - Name
 - Mapxus POI ID
@@ -208,28 +198,13 @@ Below is an example showing the search of POI by name within 2km from **[114.161
 - Floor
 - Coordinates
 
-Clicking on the result will bring you to the POI.
+Below is an example showing the search of POI by name within 2km from **[114.16158, 22.30498]** (i.e. Elements).
 
 <script async src="//jsfiddle.net/Mapxus/fd6a7ob4/embed/result,js,css,html/"></script>
 
 
 
 ## Search POI within an Area
-
-The POI search by Area service is used to search for a POI in Mapxus Map within a defined POI distance.
-
-```js
-// buildings search service
-service = new MapxusMap.BuildingsService();
-```
-
-Mapxus provides four kinds of building search service:
-
-- Name
-- Mapxus POI ID
-- Mapxus Building ID
-- Floor
-- Coordinates
 
 The search by area function enables you to search and locate a building within a defined area. You should define the area with specific longitude and latitude.
 
@@ -258,7 +233,7 @@ Import depencies(Optional):
 <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
 ```
 
-Below is an example showing the search of POI by name within the area within coordinates **[114.15816, 22.30124, 114.16561, 22.30908]** (area around Elements, Hong Kong). Matching results are displayed in the result list, with key information of the building including:
+Returned Values:
 
 - Name
 - Mapxus Map Building ID
@@ -266,26 +241,12 @@ Below is an example showing the search of POI by name within the area within coo
 - Floor List
 - Coordinates
 
-Clicking on the result will bring you to the POI.
+Below is an example showing the search of POI by name keyword within the area within coordinates **[114.15816, 22.30124, 114.16561, 22.30908]** (area around Elements, Hong Kong).
 
 <script async src="//jsfiddle.net/Mapxus/0j5139oq/embed/result,js,css,html/"></script>
 
 
 ## Search POI within a Building
-
-The POI search service is used to search for a point of interest (POI, e.g. shop, restaurant…) in Mapxus Map.
-
-```js
-// POI search service
-service = new MapxusMap.PoisService();
-```
-
-Mapxus provides four kinds of building search service:
-
-- search by ID
-- search by distance
-- search by area
-- search within building
 
 The search of POI within building function let you search and locate the POI within a building by inputting POI keywords.
 
@@ -313,7 +274,9 @@ Import bootstrap stylesheet(Optional):
 <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css">
 ```
 
-Below is an example showing the search of POI in Elements (shopping mall in Hong Kong). Matching results are displayed in the result list, with key information of the POI including:
+
+
+Returned Values:
 
 - Name
 - Mapxus POI ID
@@ -321,6 +284,6 @@ Below is an example showing the search of POI in Elements (shopping mall in Hong
 - Floor
 - Coordinates
 
-Clicking on the result will bring you to the POI directly.
+Below is an example showing the search of POI by name keyword in Elements (shopping mall in Hong Kong).
 
 <script async src="//jsfiddle.net/Mapxus/mz6hpx43/embed/result,js,css,html/"></script>

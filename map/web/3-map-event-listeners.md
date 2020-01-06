@@ -35,7 +35,7 @@ map.onIndoorPoiListener(function(evt) {
 });
 ```
 
-For instance you may use mapbox popup function to display the POI information upon clicking on a POI. Contents can be
+For instance you may use mapbox Popup() function to display the POI information upon clicking on a POI.
 
 ```js
 // poi click event

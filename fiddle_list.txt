@@ -2,6 +2,8 @@ map/web/1-getting-started/by-building-id
 
 map/web/1-getting-started/by-poi-id
 
+map/web/1-getting-started/by-zoom-level-and-map-center
+
 
 
 map/web/2-map-controllers/floor-controller

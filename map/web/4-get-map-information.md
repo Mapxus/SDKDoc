@@ -39,8 +39,6 @@ Import UI modal for Pop-ups(Optional):
 Otherwise, you can use alert() instead.
 ```
 
-Try with below sample by clicking the upper left button to get the callback of the complete floor list of the current active building. With the floor list you may define your own floor controller if you do not want to use the default Mapxus floor controller.
-
 <script async src="//jsfiddle.net/Mapxus/e89yxt4u/embed/result,js,css,html/"></script>
 
 
@@ -63,7 +61,5 @@ Import UI modal for Pop-ups(Optional):
 Otherwise, you can use alert() instead.
 ```
 
-
-Try with below sample by clicking the upper left button to get the callback of the basic building information of the current active building, like the name, address, building ID, etc.
 
 <script async src="//jsfiddle.net/Mapxus/nqy7zg1o/embed/result,js,css,html/"></script>
