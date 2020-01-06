@@ -47,6 +47,6 @@ Please [contact us](http://www.mapxus.com/contact/) to apply for your API Key.
 
 * Here you can see a Mapxus map example displaying a map by POI at K11 shopping mall, Hong Kong.
 
-* The POI ID can be obtained by [search building](https://mapxus.github.io/docs/#/map/web/5-building-search?id=global-search)
+* The POI ID can be obtained by [search POI](https://mapxus.github.io/docs/#/map/web/6-poi-search?id=search-by-poi-id)
 
 <script async src="//jsfiddle.net/Mapxus/5gpv96ez/embed/result,js,css,html/"></script>
