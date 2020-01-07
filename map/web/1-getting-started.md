@@ -26,8 +26,11 @@ Mapxus Map SDK is a set of call interface for developing map. Developers can eas
 
 ## Setup your API key
 
-Mapxus demo keys are available for testing in the demo projects. Please note they cannot be used in production.
-Please [contact us](http://www.mapxus.com/contact/) to apply for your API Key.
+> **Please Note !**
+
+	The API key used in demo codes, can only be applied in websites under the domain of Mapxus, or testing in JSFiddle.
+	 
+> Please [contact us](http://www.mapxus.com/contact/) to apply for the API Key to be applied in your website.
 
 ## Display the Mapxus map
 
